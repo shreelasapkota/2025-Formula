@@ -4,13 +4,8 @@ A TypeScript solution for creating the number 2025 using numbers 1-5 exactly onc
 
 ## Project Output
 
-\```bash
-npm run dev
-\```
-
-\```
-PS C:\Users\shree\Desktop\2025 Formula> npm run dev
-
+```bash
+# npm run dev
 > formula-2025-ts@1.0.0 dev
 > ts-node src/index.ts
 
@@ -22,30 +17,25 @@ Formula: 3^(4^1) * 5^2
   Final: 81 * 25 = 2025
 
 Final Result: 2025
-\```
 
-\```bash
-npm run test
-\```
-
-\```
+# npm run test
 PASS  tests/FormulaCalculator.test.ts
   FormulaCalculator
-    compute
-      ✓ should return 2025 (5 ms)
-      ✓ should match the intermediate steps (1 ms)
-    getFormulaExplanation
-      ✓ should return the correct explanation string (1 ms)
-
+    compute                                                                                                                                                    
+      ✓ should return 2025 (5 ms)                                                                                                                              
+      ✓ should match the intermediate steps (1 ms)                                                                                                             
+    getFormulaExplanation                                                                                                                                      
+      ✓ should return the correct explanation string (1 ms)                                                                                                    
+                                                                                                                                                               
 Test Suites: 1 passed, 1 total
 Tests:       3 passed, 3 total
 Snapshots:   0 total
-Time:        2.34 s, estimated 4 s
-\```
+Time:        2.34 s
+```
 
 ## Project Structure
 
-\```
+```
 formula-2025-ts/
 │
 ├── src/
@@ -60,7 +50,7 @@ formula-2025-ts/
 ├── jest.config.js
 ├── .gitignore
 └── README.md
-\```
+```
 
 ## Requirements
 
@@ -70,15 +60,15 @@ formula-2025-ts/
 ## Installation
 
 1. Clone the repository:
-\```bash
+```bash
 git clone https://github.com/yourusername/formula-2025-ts.git
 cd formula-2025-ts
-\```
+```
 
 2. Install dependencies:
-\```bash
+```bash
 npm install
-\```
+```
 
 ## Scripts
 
@@ -91,15 +81,15 @@ npm install
 
 The program implements a mathematical formula to create 2025 using the numbers 1-5 exactly once:
 
-Formula: `3^(4^1) * 5^2`
+### Formula: `3^(4^1) * 5^2`
 
-Steps:
+### Steps:
 1. 4^1 = 4
 2. 3^4 = 81
 3. 5^2 = 25
 4. Final: 81 * 25 = 2025
 
-The program includes comprehensive error checking and test cases, with all calculations validated for correctness.
+The program includes comprehensive error checking and test cases. All calculations are validated for correctness.
 
 ## License
 
