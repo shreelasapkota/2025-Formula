@@ -1,0 +1,27 @@
+{
+  "name": "formula-2025-ts",
+  "version": "1.0.0",
+  "description": "Formula calculator to create 2025 using numbers 1-5",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts"
+  },
+  "keywords": [
+    "mathematics",
+    "calculator",
+    "typescript"
+  ],
+  "author": "Shreela Sapkota",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^29.5.0",
+    "@types/node": "^18.15.11",
+    "jest": "^29.5.0",
+    "ts-jest": "^29.1.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  }
+}
